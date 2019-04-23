@@ -45,14 +45,40 @@
       }
     }
   }
-  .name{
-    font-size: 15px;
-    font-weight: 600;
+}
+.name{
+  font-size: 15px;
+  font-weight: 600;
+}
+.website{
+  color: #003569;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.user-tabs{
+  border-top: 1px solid #efefef;
+  display: flex;
+  justify-content: center;
+  
+a.tab{
+    height: 35px;
+    margin-right: 50px;
+    line-height: 45px;
+    color: #999;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    i{
+      padding-right: 1px;
+    }
+    &:hover{
+      text-decoration: none;
+    }
   }
-  .website{
-    color: #003569;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
+  a.active{
+    border-top: 1px solid #262626;
+    color: #262626;
   }
 }
